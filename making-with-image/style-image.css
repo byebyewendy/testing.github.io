@@ -1,0 +1,18 @@
+body {
+    background-color: gold;
+    background-image: url('welcome.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+img {
+    width: 100%;
+}
+
+div.top {
+    width: 20%;
+}
+
+div.middle {
+    width: 50%;
+}

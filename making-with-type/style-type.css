@@ -1,0 +1,80 @@
+@font-face {
+    font-family:'bianzhidai';
+    src: url('bianzhidai-base.woff');
+}
+
+body {
+    background-color:black;
+}
+
+div.header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.headercolumn {
+    flex: 50%;
+    font-size: 12px;
+    font-family:'bianzhidai';
+    color: aliceblue;
+}
+
+div.heardercolumn.a {
+    text-align: left;
+}
+
+div.headercolumn.b {
+    text-align: right;
+    margin-right: 0px;
+}
+
+div.subtext {
+    font-size: 25px;
+    font-family:'bianzhidai';
+    margin-left: 20px;
+    color: aliceblue;
+}
+
+div.subtext.a {
+    color: royalblue;
+}
+
+div.subtext.b {
+    color: gold;
+}
+
+div.subtext.c {
+    color: darkblue;
+}
+
+div.main {
+    font-size: 200px;
+    font-family:'bianzhidai';
+    text-align: left;
+    color:aliceblue;
+}
+
+div.marquee {
+    width: 100%;
+    font-size: 25px;
+    font-family: 'bianzhidai';
+    font-weight: lighter;
+    color: aliceblue;
+}
+
+div.time {
+    display: flex;
+    flex-wrap: wrap;
+    color: aliceblue;
+}
+
+div.timecolumn {
+    flex: 33.33%;
+    font-size: 50px;
+    font-family:'bianzhidai';
+    text-align: right;
+}
+
+div.random {
+    transition: 1s;
+}
